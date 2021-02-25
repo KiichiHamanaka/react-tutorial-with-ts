@@ -6,6 +6,6 @@ import Game from './components/Game'
 // ========================================
 
 ReactDOM.render(
-    <Game history={[{squares: Array(9).fill('')}]} xIsNext={true} stepNumber={0}/>,
+    <Game />,
     document.getElementById('root')
 );
